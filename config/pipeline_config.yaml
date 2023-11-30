@@ -1,0 +1,9 @@
+components:
+  - name: BasicPreprocessingComponent
+    kwargs:
+      from_key: text
+      to_key: text
+  - name: SpellCheckerComponent
+    kwargs:
+      from_key: text
+      to_key: text
