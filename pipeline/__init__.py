@@ -1,0 +1,1 @@
+from pipeline.components.spell_checker import *

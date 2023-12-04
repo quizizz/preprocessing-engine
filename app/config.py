@@ -3,7 +3,7 @@ from sanic.log import LOGGING_CONFIG_DEFAULTS
 
 
 class Configuration:
-    PORT = os.environ.get('PORT', 8000)
+    PORT = os.environ.get('PORT', 8081)
     DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 

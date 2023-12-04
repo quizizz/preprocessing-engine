@@ -6,6 +6,7 @@ from sanic.response import json
 from sanic.views import HTTPMethodView
 
 from structures.dto import DTO
+from structures.payload_schema import PayloadSchema
 
 
 class ProcessPayloadView(HTTPMethodView):
